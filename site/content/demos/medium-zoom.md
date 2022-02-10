@@ -53,6 +53,7 @@ outer element and select all images using the selector option.
 
 ```js
 lightGallery(document.querySelector('.medium-zoom-demo'), {
+    container:document.querySelector('.medium-zoom-demo'),
     // Target all images
     selector: '.blog-images',
     // Add medium zoom plugin
